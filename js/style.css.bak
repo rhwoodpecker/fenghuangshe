@@ -1,0 +1,161 @@
+/* 
+ * 页头部分样式 
+ */
+#logo,
+#search{
+	padding:30px 0;
+}
+/*
+ *导航菜单的样式
+ */
+ .navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #555555;
+  text-decoration: none;
+  background-color: #fff;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-bottom:3px solid #009571;
+}
+#navigation{
+	border-bottom:1px solid #d7d7d7;
+}
+
+/*主内容的样式
+ *
+ */
+ .content-box{
+	border:1px solid#d7d7d7;
+	border-top:none;
+	padding:10px;
+	margin-bottom:20px;
+ }
+ .content-box h1{
+	font-size:15px;
+	line-height:30px;
+	margin-top:0;
+ }
+
+ .content-meta span,
+ .content-meta time{
+	margin-right:10px;
+	color:#828282;
+ }
+
+ .content-meta img{
+	width:32px;
+ }
+
+ #main-content{
+	margin:20px 0;
+ }
+
+ .media-box{
+	height:260px;
+	overflow:hidden;  /*高于260px溢出内容隐藏*/
+ }
+
+ .breadcrumb{
+	background-color:#fff;
+	border-bottom:1px solid #d7d7d7;
+ }
+ .icon-bow{
+	display:block;
+	width:32px;
+	height:21px;
+	background:#fff url(../images/bow.png) no-repeat 50% 50%;
+	margin:0 auto;
+	margin-top:-30px;
+	padding:0 10px;
+ }
+ /*
+  *底部边栏的样式
+  */
+#bottom{
+	background:#009571 url(../images/emerald.png);
+	color:#fff;
+	text-shadow:1px 1px 1px #048456;
+}
+
+.semicircle{
+	background:url(../images/semicircle.png) repeat-x;
+	padding:20px 0;
+}
+
+#bottom h3{
+	font-size:18px;
+	color:#075442;
+	text-shadow:1px 1px 1px #03a67f;  /*水平，垂直，模糊，阴影颜色*/
+	background:url(../images/dashed-h.png) repeat-x 0 50%;
+}
+
+#bottom span{
+	background:url(../images/emerald.png);
+	padding-right:10px;
+}
+
+.dashed-v{
+	background:url(../images/dashed-v.png) repeat-y 100% 0;
+	padding:0 20px 20px 0;
+}
+
+/*
+ *页脚部分的样式
+ */
+ #footer{
+	background:url(../images/emerald-footer.png) repeat-x #097a5f;
+	padding:30px 0 20px 0;
+	color:#064536;
+	text-shadow:1px 1px 1px #009571;
+ }
+ /*
+  *文章内容的样式
+  */
+  .article-title{
+	margin-bottom:30px;
+  }
+
+  #content{
+	marfin:20px 0;
+  }
+
+  #content img{
+	margin-bottom:5px;
+  }
+
+  /*
+   *评论的样式
+   */
+
+   #comments h2{
+	font-size:18px;
+   }
+
+   #comments .media{
+	margin-bottom:20px;
+   }
+
+   #comments img{
+	width:32px;
+   }
+
+   /*
+    *右边栏样式
+	*/
+
+	.title-line{
+		border-bottom:1px solid #e8e8e8;
+		margin-bottom:30px;
+	}
+
+	.title-line h3{
+		font-size:18px;
+		line-height:1;
+		position:relative;
+		bottom:-13px;  /*下拉13px*/
+		background:#fff; /*块元素背景色为白色 盖住title-line类的下边框线*/
+		display:inline; /* 再换成行内元素*/
+		padding-right:15px;
+	}
